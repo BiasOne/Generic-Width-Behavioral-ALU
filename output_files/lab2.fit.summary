@@ -1,0 +1,18 @@
+Fitter Status : Successful - Thu Sep 24 19:49:35 2020
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : lab2
+Top-level Entity Name : alu_ns
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 258 / 49,760 ( < 1 % )
+    Total combinational functions : 258 / 49,760 ( < 1 % )
+    Dedicated logic registers : 0 / 49,760 ( 0 % )
+Total registers : 0
+Total pins : 53 / 360 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 2 / 288 ( < 1 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

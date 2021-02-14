@@ -1,0 +1,377 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/digitalDesign/lab1
+Ealu_ns
+Z0 w1600991335
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/digitalDesign/lab2
+Z5 8D:/digitalDesign/lab2/alu_ns.vhd
+Z6 FD:/digitalDesign/lab2/alu_ns.vhd
+l0
+L5
+Vb3Jc9i4;>jVY5ia[QQQzM2
+!s100 Ra8@9NT`7H<03Ka<aWjG_1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1600991387
+!i10b 1
+Z9 !s108 1600991387.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/digitalDesign/lab2/alu_ns.vhd|
+Z11 !s107 D:/digitalDesign/lab2/alu_ns.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Agood3
+R1
+R2
+R3
+Z14 DEx4 work 6 alu_ns 0 22 b3Jc9i4;>jVY5ia[QQQzM2
+l35
+L14
+Vc=5c@<LK3AP[`Dz56A3fa3
+!s100 M4VRaWW5R5E]^>Q`59Rb@0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Astructure
+Z15 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z16 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 <L;kP5e_CYmnMCFQ1Hi7l2
+Z17 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R2
+R3
+Z18 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 Zhd>PXSadeo7OO6QmOiHT3
+DEx4 work 6 alu_ns 0 22 2V:`l73Vhi>:bLhib<jGz1
+l533
+L154
+VYdX@K=<Fm<[>@YoIT[8FD0
+!s100 07GJGGBmaiRQ^HHTfWdEO0
+R7
+32
+Z19 !s110 1600814332
+!i10b 1
+Z20 !s108 1600814332.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/digitalDesign/lab2/simulation/modelsim/lab2.vho|
+Z22 !s107 D:/digitalDesign/lab2/simulation/modelsim/lab2.vho|
+!i113 1
+R12
+R13
+Z23 FD:/digitalDesign/lab2/simulation/modelsim/lab2.vho
+Z24 w1600814140
+Z25 8D:/digitalDesign/lab2/simulation/modelsim/lab2.vho
+Ealu_ns_tb
+Z26 w1600984585
+Z27 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z28 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R4
+Z29 8D:/digitalDesign/lab2/alu_ns_tb.vhd
+Z30 FD:/digitalDesign/lab2/alu_ns_tb.vhd
+l0
+L6
+VOGZhL4?il>cg3OT0<;aDh1
+!s100 YWcT;Q?>gYMKFVRRM=8dc0
+R7
+32
+R8
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/digitalDesign/lab2/alu_ns_tb.vhd|
+Z32 !s107 D:/digitalDesign/lab2/alu_ns_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R27
+R28
+R2
+R3
+DEx4 work 9 alu_ns_tb 0 22 OGZhL4?il>cg3OT0<;aDh1
+l33
+L9
+VkC?ghHiTHY]^WRc<9gNi52
+!s100 NNT7n`I:4OkcAh9`YDDcE0
+R7
+32
+R8
+!i10b 1
+R9
+R31
+R32
+!i113 1
+R12
+R13
+Ealu_sla
+Z33 w1600824005
+R27
+R28
+R2
+R3
+R4
+Z34 8D:/digitalDesign/lab2/alu_sla.vhd
+Z35 FD:/digitalDesign/lab2/alu_sla.vhd
+l0
+L6
+VZ0[PViAl=Il]8nSPPBHZ`0
+!s100 G6_E:`nfVfzfSW>fE2QH23
+R7
+32
+Z36 !s110 1600833716
+!i10b 1
+Z37 !s108 1600833716.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/digitalDesign/lab2/alu_sla.vhd|
+Z39 !s107 D:/digitalDesign/lab2/alu_sla.vhd|
+!i113 1
+R12
+R13
+Agood3
+R27
+R28
+R2
+R3
+DEx4 work 7 alu_sla 0 22 Z0[PViAl=Il]8nSPPBHZ`0
+l35
+L15
+VGJY2WWLh`l;[G`@9=4^e42
+!s100 TYLH1oXJ1OoNO5[]A1Re]1
+R7
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R12
+R13
+Ealu_sla_tb
+Z40 w1600830387
+R27
+R28
+R2
+R3
+R4
+Z41 8D:/digitalDesign/lab2/alu_sla_tb.vhd
+Z42 FD:/digitalDesign/lab2/alu_sla_tb.vhd
+l0
+L6
+VASSfzo0g@bO`cK2gQLTf40
+!s100 ekC7gY^[3W8iWBGeQUD242
+R7
+32
+R36
+!i10b 1
+R37
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/digitalDesign/lab2/alu_sla_tb.vhd|
+Z44 !s107 D:/digitalDesign/lab2/alu_sla_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R27
+R28
+R2
+R3
+DEx4 work 10 alu_sla_tb 0 22 ASSfzo0g@bO`cK2gQLTf40
+l33
+L9
+V[@^_RJ:8l`@0_lMemWD@e1
+!s100 SXJ5_XbON54<;YEjh9D`31
+R7
+32
+R36
+!i10b 1
+R37
+R43
+R44
+!i113 1
+R12
+R13
+Edecoder7seg
+Z45 w1600882859
+R1
+R2
+R3
+R4
+Z46 8D:/digitalDesign/lab2/decoder7seg.vhd
+Z47 FD:/digitalDesign/lab2/decoder7seg.vhd
+l0
+L5
+VS3OS;Lme0D^TK>;;;miKT0
+!s100 k=ia8_AzF[RS_6IZANb[J0
+R7
+32
+Z48 !s110 1600884385
+!i10b 1
+Z49 !s108 1600884385.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/digitalDesign/lab2/decoder7seg.vhd|
+Z51 !s107 D:/digitalDesign/lab2/decoder7seg.vhd|
+!i113 1
+R12
+R13
+Ad7s
+R1
+R2
+R3
+Z52 DEx4 work 11 decoder7seg 0 22 S3OS;Lme0D^TK>;;;miKT0
+l12
+L11
+V3Xm>cRd2<aX?dHR4daUCW0
+!s100 QK08:Zed<PZjg1^41`>M=0
+R7
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 1
+R12
+R13
+Aarc1
+R2
+R3
+DEx4 work 11 decoder7seg 0 22 dB;<1XdDa]5`P]2`8Rjza3
+l10
+L9
+VRhnoc]cA8P^JidXjo<bPS3
+!s100 Zm:2N;7PW1QRmX2`A[9^L0
+R7
+32
+!s110 1600882551
+!i10b 1
+!s108 1600882551.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/josep/Desktop/DDHelp/Prelab2/DONT/P1/decoder7seg.vhd|
+!s107 C:/Users/josep/Desktop/DDHelp/Prelab2/DONT/P1/decoder7seg.vhd|
+!i113 1
+R12
+R13
+FC:/Users/josep/Desktop/DDHelp/Prelab2/DONT/P1/decoder7seg.vhd
+w1599066820
+8C:/Users/josep/Desktop/DDHelp/Prelab2/DONT/P1/decoder7seg.vhd
+Edecoder7seg_tb
+Z53 w1600884376
+R1
+R2
+R3
+R4
+Z54 8D:/digitalDesign/lab2/decoder7seg_tb.vhd
+Z55 FD:/digitalDesign/lab2/decoder7seg_tb.vhd
+l0
+L5
+VDH8OOK1=ONGCV6D6HbUHj1
+!s100 aL:0Taj0aomELM_oz]DEJ1
+R7
+32
+R48
+!i10b 1
+R49
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/digitalDesign/lab2/decoder7seg_tb.vhd|
+Z57 !s107 D:/digitalDesign/lab2/decoder7seg_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R52
+R1
+R2
+R3
+Z58 DEx4 work 14 decoder7seg_tb 0 22 DH8OOK1=ONGCV6D6HbUHj1
+l13
+L8
+VX;7;KE9KA6n:I;BNnn7]L3
+!s100 J>Tia`LWI5PgdhX?Hg``;1
+R7
+32
+R48
+!i10b 1
+R49
+R56
+R57
+!i113 1
+R12
+R13
+Atb1
+R52
+R1
+R2
+R3
+R58
+l13
+L8
+VZ0T;D[GK5;MCEj6Lo9I@J1
+!s100 noik6ZKS_OGLM4nlQoBm^2
+R7
+32
+!s110 1600882895
+!i10b 1
+!s108 1600882895.000000
+R56
+R57
+!i113 1
+R12
+R13
+w1600882623
+Ehard_block
+R24
+R15
+R16
+R17
+R2
+R3
+R18
+R4
+R25
+R23
+l0
+L34
+VVJC_SCQnbl6Z72Fo6mUck3
+!s100 ROH=D<N4CT6aCZ<37A[_?0
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
+Astructure
+R15
+R16
+R17
+R2
+R3
+R18
+DEx4 work 10 hard_block 0 22 VJC_SCQnbl6Z72Fo6mUck3
+l75
+L53
+VZ3YASngXe9m4oHOPQ8A?`3
+!s100 zW6ML5NVY?Ai`]`n2XhME3
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13

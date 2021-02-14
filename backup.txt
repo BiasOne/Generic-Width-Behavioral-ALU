@@ -1,0 +1,103 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity alu_ns is generic ( WIDTH : positive := 16 );
+	port (
+		input1 : in std_logic_vector(WIDTH-1 downto 0);
+		input2 : in std_logic_vector(WIDTH-1 downto 0);
+		sel : in std_logic_vector(3 downto 0);
+		output : out std_logic_vector(WIDTH-1 downto 0);
+		overflow : out std_logic );
+	end alu_ns;
+	
+	architecture GOOD3 of alu_ns is
+
+  -- We can use constants to make the case statements more readable
+  
+  constant C_ADD 	: std_logic_vector(3 downto 0) := "0000";
+  constant C_SUB 	: std_logic_vector(3 downto 0) := "0001";
+  constant C_MUL 	: std_logic_vector(3 downto 0) := "0010";
+  constant C_AND 	: std_logic_vector(3 downto 0) := "0011";
+  constant C_OR   : std_logic_vector(3 downto 0) := "0100";
+  constant C_XOR 	: std_logic_vector(3 downto 0) := "0101";
+  constant C_NOR 	: std_logic_vector(3 downto 0) := "0110";
+  constant C_NOT 	: std_logic_vector(3 downto 0) := "0111";
+  constant C_LSL 	: std_logic_vector(3 downto 0) := "1000";
+  constant C_LSR 	: std_logic_vector(3 downto 0) := "1001";
+  constant C_SWAP : std_logic_vector(3 downto 0) := "1010";
+  constant C_REV  : std_logic_vector(3 downto 0) := "1011";
+  constant C_FLAG : std_logic_vector(3 downto 0) := "1100";
+  constant C_2COMP: std_logic_vector(3 downto 0) := "1101";
+ 
+
+begin  -- GOOD3
+
+  process(input1, input2, sel)
+  
+    variable temp : unsigned(2*WIDTH-1 downto 0);
+	 	 
+  begin
+	    case sel is
+      when C_ADD =>
+        temp := resize(unsigned(input1), 2*WIDTH) + resize(unsigned(input2), 2*WIDTH);
+
+		  
+      when C_SUB =>
+        temp := resize(unsigned(input1), 2*WIDTH) - resize(unsigned(input2), 2*WIDTH);
+
+      when C_MUL =>
+        temp := unsigned(input1) * unsigned(input2);
+
+      when C_AND =>
+        temp := resize(unsigned(input1), 2*WIDTH) AND resize(unsigned(input2), 2*WIDTH);
+		  
+		when C_OR =>
+        temp := resize(unsigned(input1), 2*WIDTH) OR resize(unsigned(input2), 2*WIDTH);
+		  
+		when C_XOR =>
+        temp := resize(unsigned(input1), 2*WIDTH) XOR resize(unsigned(input2), 2*WIDTH);
+		  
+		when C_NOR =>
+        temp := resize(unsigned(input1), 2*WIDTH) NOR resize(unsigned(input2), 2*WIDTH);
+		
+		when C_NOT =>
+        temp := resize(NOT unsigned(input1), WIDTH*2);
+		  
+		when C_LSL =>
+        temp := resize(SHIFT_LEFT(unsigned(input1),1), WIDTH*2);
+		  
+		when C_LSR =>
+        temp := resize(SHIFT_RIGHT(unsigned(input1),2), WIDTH*2);
+		  
+		when C_SWAP =>
+        if ((WIDTH mod 2) = 0) then
+				temp := resize((unsigned(input2((WIDTH/2)-1 downto 0)) & unsigned(input2(WIDTH-1 downto WIDTH/2))),WIDTH*2);
+			else
+				temp := resize(unsigned(input2(((WIDTH+1)/2)-1 downto 0)) & unsigned(input2(WIDTH-1 downto WIDTH/2)), WIDTH*2);
+			end if;
+		  
+		when C_REV =>
+		for i in 0 to WIDTH-1 loop
+        temp(i) := input2(WIDTH-1-i);
+		  end loop;
+		  
+		when C_FLAG =>
+        temp := resize(unsigned(input2), WIDTH*2);
+		  
+		when C_2COMP =>
+        temp := not(resize(unsigned(input2), WIDTH*2)) + 1;
+
+      when others => null;
+    end case;
+	 
+	 if (temp(2*WIDTH-1 downto WIDTH) >=1) then
+	 overflow <='1';
+	 else
+	 overflow <='0';
+	 end if;
+	 
+	 output <= std_logic_vector(temp(WIDTH-1 downto 0));
+	 
+	 end process;
+end GOOD3;
